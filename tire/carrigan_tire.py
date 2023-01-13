@@ -1,6 +1,6 @@
 from tire import Tire
 
-class carrigan_tire(Tire):
+class CarriganTire(Tire):
     def __init__(self, tire_health_array):
         self.tire_health_array = tire_health_array
     def needs_service(self):

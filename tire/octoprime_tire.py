@@ -1,6 +1,6 @@
 from tire import Tire
 
-class octoprime_tire(Tire):
+class OctoprimeTire(Tire):
     def __init__(self, tire_health_array):
         self.tire_health_array = tire_health_array
     def needs_service(self):
